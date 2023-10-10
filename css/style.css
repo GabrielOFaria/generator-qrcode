@@ -25,7 +25,10 @@ img {
     border-radius: 10px;
     padding: 20px;
     transition: 0.2s;
+}
 
+.container.active{
+    height: 500px;
 }
 
 /* Header */
@@ -75,5 +78,25 @@ img {
     transition: 0.4s;
 }
 
+#qr-form button:hover{
+    opacity: 1;
+}
+
+/* QR CODE */
+
+#qr-code{
+    display: flex;
+    opacity: 0;
+    border: 1px solid #ccc;
+    padding: 30px 0;
+    margin: 20px 15px;
+    justify-content: center;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.container.active #qr-code{
+    opacity: 1;
+}
 
 
